@@ -11,7 +11,11 @@
 - ⚡ Fun fact: I love learning programming!
 
 ---
+<div align="center">
+  <img align="center" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+</div>
 
+---
 #### 🛠️ Languages I Work With:
 <div align="center">
   <a href="https://www.java.com" target="_blank" rel="noreferrer">
