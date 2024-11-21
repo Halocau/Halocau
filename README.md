@@ -26,7 +26,7 @@
 ---
 
 ### 🛠️ Languages:
-<div align="center">
+<div align="center" class="skills">
   <a href="https://www.java.com" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"/>
   </a>
@@ -41,23 +41,116 @@
 ---
 
 ### 🚀 Frameworks:
-<div align="center">
+<div align="center" class="frameworks">
   <a href="https://spring.io/" target="_blank" rel="noreferrer">
     <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="Spring" width="60" height="60"/>
   </a>
   <a href="https://dotnet.microsoft.com/" target="_blank" rel="noreferrer">
     <img src="https://upload.wikimedia.org/wikipedia/commons/e/ee/.NET_Core_Logo.svg" alt=".NET" width="60" height="60"/>
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="60" height="60"/>
   </a>
+  <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="60" height="60"/>
   </a>
 </div>
 
 ---
 
 ### 📊 GitHub Stats:
-<div align="center">
+<div align="center" class="github-stats">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Halocau&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" width="400"/>
   <img src="https://github-readme-stats.vercel.app/api?username=Halocau&theme=tokyonight&show_icons=true" alt="GitHub Stats" width="400"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Halocau&&theme=tokyonight" alt="GitHub Streak" width="400"/>
 </div>
+
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1, h3 {
+    color: #e0e0e0;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 10px;
+  }
+
+  .skills a, .frameworks a {
+    margin: 0 10px;
+    transition: transform 0.3s ease;
+  }
+
+  .skills a:hover, .frameworks a:hover {
+    transform: scale(1.1);
+  }
+
+  .github-stats {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+    animation: slideIn 1s ease-out;
+  }
+
+  .github-stats img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .github-stats img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 150, 255, 0.5);
+  }
+
+  .skills, .frameworks {
+    margin-top: 20px;
+  }
+
+  @media (max-width: 768px) {
+    .github-stats {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .skills, .frameworks {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+</style>
