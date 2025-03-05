@@ -62,8 +62,7 @@
 #### 📊 GitHub Stats:
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Halocau&show_icons=true&locale=en&layout=compact&theme=tokyonight" alt="Top Languages" width="400"/>
-  <img src="https://github-readme-stats.vercel.app/api?username=Halocau&theme=tokyonight&show_icons=true" alt="GitHub Stats" width="400"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Halocau&&theme=tokyonight" alt="GitHub Streak" width="400"/>
+
 </div>
 
 ---
