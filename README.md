@@ -80,22 +80,3 @@
 
 ---
 
-#### 🌟 Featured Projects:
-
-<div align="center">
-  <a href="https://github.com/Halocau/OnlineLearning.git" target="_blank">
-    <img src="https://img.shields.io/badge/Online%20Learning-%230077B5.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Online Learning" width="200" height="50"/>
-  </a>
-  <p align="center">
-    <i>Website Online Learning - Learn and grow with an online platform.</i>
-  </p>
-  
-  <a href="https://github.com/Halocau/EmployeeManagement.git" target="_blank">
-    <img src="https://img.shields.io/badge/Employee%20Management-%23FF5733.svg?&style=for-the-badge&logo=github&logoColor=white" alt="Employee Management" width="200" height="50"/>
-  </a>
-  <p align="center">
-    <i>Desktop app for managing employees in an efficient system.</i>
-  </p>
-</div>
-
----
